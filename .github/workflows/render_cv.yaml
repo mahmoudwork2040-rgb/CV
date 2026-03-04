@@ -29,6 +29,13 @@ jobs:
         run: |
           rendercv render ossama_taha_cv.yaml
           
+      - name: Prepare Deployment
+        run: |
+          # Copy the first page PNG to the root of the deployment directory as thumbnail.png
+          cp ./rendercv_output/Ossama_Taha_CV_1.png ./rendercv_output/thumbnail.png
+          # Copy our new index.html wrapper into the deployment directory
+          cp index.html ./rendercv_output/
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
