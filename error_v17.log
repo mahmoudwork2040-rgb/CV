@@ -1,0 +1,325 @@
+╭─ Error ──────────╮
+│ This is not a    │
+│ valid YAML file! │
+│                  │
+│ while            │
+│ constructing a   │
+│ mapping          │
+│   in "<unicode   │
+│ string>", line   │
+│ 5, column 3:     │
+│       theme:     │
+│ classic          │
+│       ^ (line:   │
+│ 5)               │
+│ found duplicate  │
+│ key "sections"   │
+│ with value       │
+│ "{'summary':     │
+│ ['Business       │
+│ Intelligence     │
+│ Analyst and Data │
+│ Engineer with    │
+│ experience in    │
+│ automated        │
+│ reporting        │
+│ systems, data    │
+│ pipelines, and   │
+│ executive        │
+│ analytics.       │
+│ Strong skills in │
+│ Power BI, SQL,   │
+│ Python, and big  │
+│ data             │
+│ technologies     │
+│ including Spark  │
+│ and Hadoop.\n'], │
+│ 'education':     │
+│ [{'institution': │
+│ 'Al-Azhar        │
+│ University',     │
+│ 'area':          │
+│ 'Accounting &    │
+│ Business         │
+│ Management',     │
+│ 'degree':        │
+│ 'B.Com',         │
+│ 'start_date':    │
+│ '2019-09',       │
+│ 'end_date':      │
+│ '2023-06'}],     │
+│ 'experience':    │
+│ [{'company':     │
+│ 'Nile for Cables │
+│ and              │
+│ Electronics',    │
+│ 'position': 'BI  │
+│ & Sales Data     │
+│ Analyst',        │
+│ 'location':      │
+│ 'Giza, Egypt',   │
+│ 'start_date':    │
+│ '2024-11',       │
+│ 'end_date':      │
+│ 'present',       │
+│ 'highlights':    │
+│ ['Engineered a   │
+│ semi-realtime    │
+│ automated        │
+│ reporting system │
+│ replacing Power  │
+│ BI, improving    │
+│ reporting speed  │
+│ by 10x.',        │
+│ 'Designed        │
+│ end-to-end ETL   │
+│ pipelines using  │
+│ PostgreSQL and   │
+│ Dolt.', 'Built   │
+│ executive        │
+│ dashboards       │
+│ supporting sales │
+│ forecasting and  │
+│ strategic        │
+│ decisions.',     │
+│ 'Led quarterly   │
+│ sales            │
+│ performance      │
+│ evaluations      │
+│ using            │
+│ consolidated     │
+│ KPIs.']},        │
+│ {'company':      │
+│ 'Samsung         │
+│ Innovation       │
+│ Campus',         │
+│ 'position': 'Big │
+│ Data Engineer',  │
+│ 'location':      │
+│ 'Giza, Egypt',   │
+│ 'start_date':    │
+│ '2024-07',       │
+│ 'end_date':      │
+│ '2024-10',       │
+│ 'highlights':    │
+│ ['Built scalable │
+│ ETL pipelines    │
+│ using Spark,     │
+│ Kafka, and       │
+│ Hadoop.',        │
+│ 'Performed EDA   │
+│ and feature      │
+│ engineering for  │
+│ analytical use   │
+│ cases.',         │
+│ 'Deployed data   │
+│ workflows on AWS │
+│ EC2 and S3.']}], │
+│ 'projects':      │
+│ [{'name':        │
+│ 'GoldTracker     │
+│ EGP', 'link':    │
+│ 'https://github. │
+│ com/OssamaTaha/g │
+│ old-tracker-egp' │
+│ , 'highlights':  │
+│ ['**Tech         │
+│ Stack:** Python, │
+│ Streamlit,       │
+│ Plotly, SQLite,  │
+│ BeautifulSoup',  │
+│ '**Problem:**    │
+│ Lack of          │
+│ real-time,       │
+│ consolidated     │
+│ gold price data  │
+│ and analytics in │
+│ the Egyptian     │
+│ market.',        │
+│ '**Solution:**   │
+│ Built an         │
+│ automated ETL    │
+│ pipeline and     │
+│ interactive      │
+│ dashboard with   │
+│ AI-driven        │
+│ buy/sell         │
+│ signals.',       │
+│ '**Repository:** │
+│ (https://github. │
+│ com/OssamaTaha/g │
+│ old-tracker-egp) │
+│ ']}, {'name':    │
+│ 'Sales Reporting │
+│ ETL & Data       │
+│ Warehouse',      │
+│ 'link':          │
+│ 'https://github. │
+│ com/OssamaTaha/r │
+│ eportingSystem', │
+│  'highlights':   │
+│ ['**Tech         │
+│ Stack:** Python, │
+│ Dolt, SQL,       │
+│ Pandas',         │
+│ '**Problem:**    │
+│ Fragmented sales │
+│ data across      │
+│ multiple files   │
+│ making reporting │
+│ slow and         │
+│ error-prone.',   │
+│ '**Solution:**   │
+│ Engineered a     │
+│ robust ETL       │
+│ pipeline and     │
+│ version-controll │
+│ ed data          │
+│ warehouse,       │
+│ ensuring data    │
+│ integrity.']},   │
+│ {'name': 'Order  │
+│ Management Bot', │
+│ 'link':          │
+│ 'https://github. │
+│ com/OssamaTaha/O │
+│ rder-Management- │
+│ Bot',            │
+│ 'highlights':    │
+│ ['**Tech         │
+│ Stack:** Python, │
+│ Telegram API,    │
+│ SQLite,          │
+│ Tesseract OCR',  │
+│ '**Problem:**    │
+│ Manual order     │
+│ processing on    │
+│ social media was │
+│ time-consuming   │
+│ and              │
+│ inefficient.',   │
+│ '**Solution:**   │
+│ Developed a      │
+│ modular bot with │
+│ OCR for product  │
+│ codes,           │
+│ automating order │
+│ intake and       │
+│ management.',    │
+│ '**Repository:** │
+│ (https://github. │
+│ com/OssamaTaha/O │
+│ rder-Management- │
+│ Bot)']},         │
+│ {'name': 'SIC    │
+│ Fraud            │
+│ Detection',      │
+│ 'link':          │
+│ 'https://github. │
+│ com/OssamaTaha/S │
+│ IC_FraudDetectio │
+│ n',              │
+│ 'highlights':    │
+│ ['**Tech         │
+│ Stack:** Python, │
+│ Scikit-learn,    │
+│ Pandas,          │
+│ Jupyter',        │
+│ '**Problem:**    │
+│ Identifying      │
+│ fraudulent       │
+│ transactions in  │
+│ a large dataset  │
+│ with high        │
+│ precision.',     │
+│ '**Solution:**   │
+│ Implemented a    │
+│ machine learning │
+│ model with       │
+│ extensive        │
+│ feature          │
+│ engineering,     │
+│ achieving high   │
+│ detection        │
+│ accuracy.',      │
+│ '**Repository:** │
+│ (https://github. │
+│ com/OssamaTaha/S │
+│ IC_FraudDetectio │
+│ n)']}],          │
+│ 'tech_stack':    │
+│ [{'label':       │
+│ 'Business        │
+│ Intelligence',   │
+│ 'details':       │
+│ 'Power BI, DAX,  │
+│ Dash, Streamlit, │
+│ Tableau,         │
+│ Excel'},         │
+│ {'label': 'Data  │
+│ Engineering',    │
+│ 'details':       │
+│ 'Python, SQL,    │
+│ PostgreSQL,      │
+│ MySQL, ETL, Data │
+│ Modeling'},      │
+│ {'label': 'Big   │
+│ Data & Cloud',   │
+│ 'details':       │
+│ 'Spark, Hadoop,  │
+│ Kafka, AWS'}],   │
+│ 'certifications' │
+│ : ['IBM AI       │
+│ Engineering      │
+│ Professional     │
+│ Certificate (In  │
+│ Progress)',      │
+│ 'Google Data     │
+│ Analytics', 'IBM │
+│ Data Analyst',   │
+│ 'IBM Data        │
+│ Engineer', 'IBM  │
+│ Data Science',   │
+│ 'Python for      │
+│ Everybody'],     │
+│ 'languages':     │
+│ [{'label':       │
+│ 'Arabic',        │
+│ 'details':       │
+│ 'Native'},       │
+│ {'label':        │
+│ 'English',       │
+│ 'details':       │
+│ 'Professional'}, │
+│ {'label':        │
+│ 'Russian',       │
+│ 'details':       │
+│ 'Basic'}]}"      │
+│ (original value: │
+│ "{'allow_page_br │
+│ eak': False,     │
+│ 'space_between_r │
+│ egular_entries': │
+│  '0.8em',        │
+│ 'space_between_t │
+│ ext_based_entrie │
+│ s': '0.2em',     │
+│ 'show_time_spans │
+│ _in':            │
+│ ['experience']}" │
+│ )                │
+│   in "<unicode   │
+│ string>", line   │
+│ 153, column 3:   │
+│       sections:  │
+│       ^ (line:   │
+│ 153)             │
+│                  │
+│ To suppress this │
+│ check see:       │
+│     https://yaml │
+│ .dev/doc/ruamel. │
+│ yaml/api/#Duplic │
+│ ate_keys         │
+│                  │
+╰──────────────────╯

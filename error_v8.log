@@ -1,0 +1,31 @@
+╭─ Your CV is read─╮
+│ ✓ 74 ms          │
+│ Generated Typst: │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ .typ             │
+│ ✓ 466 ms         │
+│ Generated PDF:   │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ .pdf             │
+│ ✓ 33 ms          │
+│ Generated PNGs:  │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ _1.png;          │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ _2.png           │
+│ ✓ 18 ms          │
+│ Generated        │
+│ Markdown:        │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ .md              │
+│ ✓ 7 ms           │
+│ Generated HTML:  │
+│ ./rendercv_outpu │
+│ t/Ossama_Taha_CV │
+│ .html            │
+╰──────────────────╯
