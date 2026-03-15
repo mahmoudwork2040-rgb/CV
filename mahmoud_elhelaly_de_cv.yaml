@@ -1,0 +1,253 @@
+cv:
+  name: Mahmoud Elhelaly
+  headline: Data Engineer
+  location: Cairo, Egypt
+  email: mahmoudwork2040@gmail.com
+  phone: "+20 1000767912"
+  social_networks:
+    - network: LinkedIn
+      username: mahmoud--elhelaly
+    - network: GitHub
+      username: MGmahmoud
+  
+  sections:
+    summary: 
+      - >
+        Data tells stories... I remove the noise to ensure you can hear them clearly.
+        
+    experience:
+      - company: High Solve Company
+        position: Data Analytics Engineer
+        location: Hybrid
+        start_date: 2025-06
+        end_date: 2026-03
+        highlights:
+          - Built Power BI dashboards for cars retail to track multi-branch KPIs.
+          - Created data quality frameworks to audit ERP entries, resolving 5% of data entery errors.
+          - Analyzed sales reps performance to provide accurate reports.
+          
+      - company: NTI Summer Training Program
+        position: Instructor - Data Analytics
+        location: Hybrid
+        start_date: 2025-07
+        end_date: 2026-01
+        highlights:
+          - Trained 90+ students in full-cycle data analytics, ETL, and database design.
+          - Led technical sessions in SQL, Python, and Power BI to build production-ready solutions.
+      
+      - company: Freelance
+        position: Data Analyst & BI Consultant
+        location: Online
+        start_date: 2025-02
+        end_date: present
+        highlights:
+          - Translated client requirements into scalable data models and Power BI reports.
+          - Streamlined reporting by integrating disparate data sources, reducing manual work by 30%.
+    
+    projects:
+      - name: Enterprise Banking ETL & Dimensional Modeling
+        link: https://github.com/MGmahmoud/Bank_DWH_ETL
+        highlights:
+          - "**Tech Stack:** Informatica PowerCenter, Oracle SQL, PL/SQL, Star Schema"
+          - "**Problem:** Core banking system degradation during month-end due to heavy reporting loads."
+          - "**Solution:** Built an offloaded ETL pipeline and Oracle reporting layer with data validation."
+          - "**Impact:** Improved reporting efficiency by 10X and ensured 100% audit-ready data accuracy."
+          - "Architected a high-availability Informatica framework to offload production workloads."
+          - "Engineered an Oracle Star Schema to optimize transactional data for regulatory reporting."
+      
+      - name: Retail Data Warehouse & Strategic Analytics
+        link: https://github.com/MGmahmoud/SQL-Data-Warehouse-and-Analytics-Project
+        highlights:
+          - "**Tech Stack:** SQL Server, Star Schema, Advanced T-SQL, Medallion Arch"
+          - "**Problem:** Siloed CSVs from ERP/CRM caused data duplication and unreliable reporting."
+          - "**Solution:** Built an ETL pipeline to transform raw files into a Gold-layer SSOT."
+          - "**Impact:** Delivered RFM Segmentation and Pareto Analysis to optimize marketing spend."
+          - "Architected a Medallion DWH (Bronze/Silver/Gold) to centralize disparate retail sources."
+          - "Implemented a Star Schema model, reducing report generation latency by 70%."
+      
+      - name: Electronics Retail Performance & Forecast 
+        link: https://www.youtube.com/watch?v=UiCx9nMZZIU
+        highlights:
+          - "**Tech Stack:** SQL Server, Power BI, DAX, Excel, Power Query"
+          - "**Problem:** Management lacked visibility into brand-level profitability and forecast variance."
+          - "**Solution:** Built a drill-down dashboard comparing YoY historical data to real-time KPIs."
+          - "**Impact:** Enabled data-driven procurement, optimizing stock and negotiating volume discounts."
+              
+      - name: HR Early Warning System (Employee Attrition)
+        link: https://www.kaggle.com/code/mahmoudelhelaly/ibm-employee-attrition-analysis
+        highlights:
+          - "**Tech Stack:** Python (Scikit-Learn), XGBoost, Random Forest, Seaborn"
+          - "**Problem:** Lack of quantitative tools to identify attrition root causes or predict churn risk."
+          - "**Solution:** Performed EDA and built an XGBoost pipeline to identify high-risk employee segments."
+          - "**Impact:** Created an early warning system for HR to apply proactive retention strategies."
+          - "Developed a predictive model for employee turnover using a 1,400+ record dataset."
+          - "Achieved 87% accuracy in identifying key churn drivers like salary and travel frequency."
+      
+    tech_stack:
+      - label: Business Intelligence & Tools
+        details: Power BI, DAX, Tableau, Excel, SSIS, SSRS, SSAS, Data Warehousing, ETL/ELT, Data Modeling, Informatica Power Center
+      - label: Data Engineering
+        details: Python, SQL, PostgreSQL, SQL Server, ETL, Data Modeling, Linux(Bash)
+      - label: Programming
+        details: Python (Pandas, Scikit-Learn), SQL (T-SQL, PostgreSQL)
+        
+    education:
+      - institution: Information Technology Institute (ITI)
+        area: Power BI Track Trainee
+        location: Hybrid
+        start_date: 2024-12
+        end_date: 2025-03
+   
+      - institution: Al-Azhar University
+        area: B.Sc. in Engineering
+        location: Cairo, Egypt
+        start_date: 2019
+        end_date: 2024
+       
+    certifications:
+      - "**Power BI Data Analyst Associate | Microsoft**"
+      - "**Data Analyst Associate | DataCamp**"   
+    
+    languages:
+      - label: Languages
+        details: "**Arabic:** Native \\hspace{1cm} **English:** Professional"
+
+design:
+  theme: classic
+  
+  page:
+    size: us-letter 
+    top_margin: 0.5cm
+    bottom_margin: 0.5cm
+    left_margin: 0.5cm
+    right_margin: 0.5cm
+    show_footer: false
+    show_top_note: true
+
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+
+  typography:
+    line_spacing: 0.5em
+    alignment: justified 
+    date_and_location_column_alignment: right
+    font_family: 
+      body: Source Sans 3 
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 20pt
+      connections: 10pt
+      section_titles: 1.2em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+
+  links:
+    underline: false
+    show_external_link_icon: false
+
+  header:
+    alignment: center 
+    photo_width: 3.5cm
+    photo_position: left 
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.3cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.3cm
+    connections:
+      phone_number_format: national 
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
+
+  section_titles:
+    type: with_partial_line 
+    line_thickness: 0.5pt
+    space_above: 0.3cm
+    space_below: 0.2cm
+
+  sections:
+    allow_page_break: false
+    space_between_regular_entries: 0.8em
+    space_between_text_based_entries: 0.2em
+    show_time_spans_in: 
+      - experience
+
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: true
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: • 
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+
+  templates: 
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        **DEGREE**
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: null
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
